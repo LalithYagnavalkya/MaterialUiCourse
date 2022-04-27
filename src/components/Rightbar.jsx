@@ -16,7 +16,7 @@ export const Rightbar = () => {
       p={2}
       sx={{ display: { xs: "none", sm: "block" } }}
     >
-      <Box position="fixed">
+      <Box position="fixed" width={300}>
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
@@ -55,8 +55,10 @@ export const Rightbar = () => {
             src="https://material-ui.com/static/images/avatar/8.jpg"
           />
         </AvatarGroup>
-        <Typography>Latest Photos</Typography>
-        <ImageList cols={2} rowHeight={100} gap={5}>
+        <Typography variant="h6" fontWeight={100} mt={2} mb={2}>
+          Latest Photos
+        </Typography>
+        <ImageList cols={3} rowHeight={100} gap={5}>
           <ImageListItem>
             <img
               src="https://material-ui.com/static/images/image-list/breakfast.jpg"
