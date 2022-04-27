@@ -63,7 +63,7 @@ const Sidebar = () => {
             <ListItemIcon>
               <Settings />
             </ListItemIcon>
-            <ListItemText primary="settings" />
+            <ListItemText primary="Settings" />
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
