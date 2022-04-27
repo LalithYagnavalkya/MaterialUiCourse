@@ -12,6 +12,7 @@ import {
   Settings,
   AccountBox,
   Storefront,
+  Person,
 } from "@mui/icons-material";
 
 import React from "react";
@@ -52,9 +53,9 @@ const Sidebar = () => {
         <ListItem disablePadding>
           <ListItemButton component="a" href="#pages">
             <ListItemIcon>
-              <Storefront />
+              <Person />
             </ListItemIcon>
-            <ListItemText primary="Marketplace" />
+            <ListItemText primary="Friends" />
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
