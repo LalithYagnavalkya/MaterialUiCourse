@@ -1,4 +1,11 @@
-import { Avatar, AvatarGroup, Box, Typography } from "@mui/material";
+import {
+  Avatar,
+  AvatarGroup,
+  Box,
+  Typography,
+  ImageList,
+  ImageListItem,
+} from "@mui/material";
 import React from "react";
 
 export const Rightbar = () => {
@@ -49,6 +56,26 @@ export const Rightbar = () => {
           />
         </AvatarGroup>
         <Typography>Latest Photos</Typography>
+        <ImageList cols={2} rowHeight={100} gap={5}>
+          <ImageListItem>
+            <img
+              src="https://material-ui.com/static/images/image-list/breakfast.jpg"
+              alt=""
+            />
+          </ImageListItem>
+          <ImageListItem>
+            <img
+              src="https://material-ui.com/static/images/image-list/burgers.jpg"
+              alt=""
+            />
+          </ImageListItem>
+          <ImageListItem>
+            <img
+              src="https://material-ui.com/static/images/image-list/camera.jpg"
+              alt=""
+            />
+          </ImageListItem>
+        </ImageList>
       </Box>
     </Box>
   );
