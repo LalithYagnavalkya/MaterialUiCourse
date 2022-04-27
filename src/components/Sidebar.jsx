@@ -5,6 +5,7 @@ import {
   ListItemIcon,
   ListItemButton,
   ListItemText,
+  Switch,
 } from "@mui/material";
 import {
   HomeSharp,
@@ -14,6 +15,7 @@ import {
   Storefront,
   Person,
   Group,
+  ModeNight,
 } from "@mui/icons-material";
 
 import React from "react";
@@ -81,6 +83,14 @@ const Sidebar = () => {
               <AccountBox />
             </ListItemIcon>
             <ListItemText primary="Profile" />
+          </ListItemButton>
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#simple-list">
+            <ListItemIcon>
+              <ModeNight />
+            </ListItemIcon>
+            <Switch />
           </ListItemButton>
         </ListItem>
       </List>
