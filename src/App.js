@@ -1,10 +1,9 @@
-import { Box, Button, Container, Stack, styled } from "@mui/material";
-// import SettingsIcon from "@mui/icons-material/Settings";
-import { Add, Settings } from "@mui/icons-material";
+import { Box, Stack } from "@mui/material";
 import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed";
 import { Rightbar } from "./components/Rightbar";
 import Navbar from "./components/Navbar";
+import Add from "./components/Add";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
         <Feed />
         <Rightbar />
       </Stack>
+      <Add />
     </Box>
   );
 }
